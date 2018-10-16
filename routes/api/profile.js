@@ -22,7 +22,7 @@ router.get("/test", (req, res) => res.json({ msg: "Profile Works" }));
 // @desc    Get current user profile
 // @access  Private
 router.get(
-  "/",
+  '/',
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
     const errors = {};

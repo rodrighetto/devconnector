@@ -2,7 +2,7 @@
   "name": "react-pinpoint",
   "version": "1.0.0",
   "description": "React version of Pinpoint App",
-  "main": "index.js",
+ "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "node server.js",
@@ -16,7 +16,6 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
     "concurrently": "^4.0.1",
-    "cors": "^2.8.4",
     "express": "^4.16.3",
     "gravatar": "^1.6.0",
     "jsonwebtoken": "^8.3.0",
